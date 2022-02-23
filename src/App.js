@@ -6,11 +6,13 @@ import { themeLight } from "./styles/Themes";
 
 import ScrollToTop from "./components/mainComponents/ScrollToTop";
 import { StyledMain } from "./components/styledComponents/Main.styled";
+import Header from "./components/mainComponents/Header";
 import NavBar from "./components/mainComponents/NavBar";
+import Footer from "./components/mainComponents/Footer";
+
 import HomePage from "./pages/HomePage";
 import ProductsPage from "./pages/ProductsPage";
 import CartPage from "./pages/CartPage";
-import Footer from "./components/mainComponents/Footer";
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
     <ThemeProvider theme={themeLight}>
       <GlobalStyle/>
       <Router>
+      <Header/>
         <NavBar />
         <StyledMain className="backgroundImg">
         <ScrollToTop>

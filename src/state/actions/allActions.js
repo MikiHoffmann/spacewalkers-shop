@@ -1,0 +1,1 @@
+export * as allCartActions from "./shopActions";
