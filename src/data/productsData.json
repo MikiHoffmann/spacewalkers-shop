@@ -1,0 +1,258 @@
+{
+    "products": [
+      {
+        "id": "pPl01",
+        "name": "Mercury",
+        "img": "planetsMercury.png",
+        "description": "This is the SMALL planet",
+        "price": 400.00,
+        "category":"planets"
+      },
+      {
+        "id": "pPl02",
+        "name": "Venus",
+        "img": "planetsVenus.png",
+        "description": "This is the SMALL planet",
+        "price": 400.00,
+        "category":"planets"
+      },
+      {
+        "id": "pPl03",
+        "name": "Earth",
+        "img": "planetsEarth.png",
+        "description": "This is the SMALL planet",
+        "price": 400.00,
+        "category":"planets"
+      },
+      {
+        "id": "pPl04",
+        "name": "Saturn",
+        "img": "planetsSaturn.png",
+        "description": "This is the BIG planet",
+        "price": 400.00,
+        "category":"planets"
+      },
+      {
+        "id": "pPl05",
+        "name": "Mars",
+        "img": "planetsMars.png",
+        "description": "This is the very BIG planet",
+        "price": 400.00,
+        "category":"planets"
+      },
+      {
+        "id": "pPl06",
+        "name": "Jupiter",
+        "img": "planetsJupiter.png",
+        "description": "This is the very BIG planet",
+        "price": 400.00,
+        "category":"planets"
+      },
+      {
+        "id": "pPl07",
+        "name": "Uranus",
+        "img": "planetsUranus.png",
+        "description": "This is the SMALL planet",
+        "price": 400.00,
+        "category":"planets"
+      },
+      {
+        "id": "pPl08",
+        "name": "Neptune",
+        "img": "planetsNeptune.png",
+        "description": "This is the SMALL planet",
+        "price": 400.00,
+        "category":"planets"
+      },
+      {
+        "id": "pPl09",
+        "name": "Pluto",
+        "img": "planetsPluto.png",
+        "description": "This is the SMALL planet",
+        "price": 400.00,
+        "category":"planets"
+      },
+      {
+        "id": "pR01",
+        "name": "Pink Space Robot",
+        "img": "PinkSpaceToys.jpg",
+        "description": "This is the SMALL product",
+        "price": 400.00,
+        "category":"robots"
+      },
+      {
+        "id": "pR02",
+        "name": "'Silko'",
+        "img": "StilkoRobot.jpg",
+        "description": "This is the MEDIUM product",
+        "price": 213.45,
+        "category":"robots"
+      },
+      {
+        "id": "pR03",
+        "name": "SquareHead",
+        "img": "SquareD.jpg",
+        "description": "This is the LARGE product",
+        "price": 120,
+        "category":"robots"
+      },
+      {
+        "id": "pR04",
+        "name": "TV guider",
+        "img": "TVBot.jpg",
+        "description": "This is the X-LARGE product",
+        "price": 90.99,
+        "category":"robots"
+      },
+      {
+        "id": "pR05",
+        "name": "The Monkey's Friend",
+        "img": "TheMonkeyFriend.jpg",
+        "description": "This is the XX-LARGE product",
+        "price": 1234.50,
+        "category":"robots"
+      },
+      {
+        "id": "p06",
+        "name": "'Tracer'",
+        "img": "Tracer.jpg",
+        "description": "This is the WEIRD product",
+        "price": 150.90,
+        "category":"robots"
+      },
+      {
+        "id": "pR07",
+        "name": "Yellow smoking spaceman",
+        "img": "YellowSmokingSpacemanRobot.jpg",
+        "description": "This is the WEIRD product",
+        "price": 60
+      },
+      {
+        "id": "pR08",
+        "name": "The Invisible Agent",
+        "img": "TheInvisibleAgent.jpg",
+        "description": "This is the WEIRD product",
+        "price": 98,
+        "category":"robots"
+      },
+      {
+        "id": "pR09",
+        "name": "Robot 44edS5t",
+        "img": "Robot44edS5t.jpg",
+        "description": "This is the WEIRD product",
+        "price": 45,
+        "category":"robots"
+      },
+      {
+        "id": "p10",
+        "name": "'Robby'",
+        "img": "RobbyTheRobot.jpg",
+        "description": "This is the WEIRD product",
+        "price": 55.85,
+        "category":"robots"
+      },
+      {
+        "id": "pR11",
+        "name": "Red-N-Blue Bot",
+        "img": "RedNBlueRobot.jpg",
+        "description": "This is the WEIRD product",
+        "price": 175.99
+      },
+      {
+        "id": "pR12",
+        "name": "Fantastic Buddy",
+        "img": "FantasticBuddy.jpg",
+        "description": "This is the WEIRD product",
+        "price": 75.89,
+        "category":"robots"
+      },
+      {
+        "id": "pR13",
+        "name": "Attack of the vintage Toys",
+        "img": "AttackOfTheVintageToyRobots.jpg",
+        "description": "This is the WEIRD product",
+        "price": 80,
+        "category":"robots"
+      },
+      {
+        "id": "pR14",
+        "name": "Nr 16",
+        "img": "Robot16.jpg",
+        "description": "This is the WEIRD product",
+        "price": 150,
+        "category":"robots"
+      },
+      {
+        "id": "pR15",
+        "name": "Bad Robot Proto",
+        "img": "BadRobotProto.jpg",
+        "description": "This is the WEIRD product",
+        "price": 114.99,
+        "category":"robots"
+      },
+      {
+        "id": "pS1",
+        "name": "Frendship 7",
+        "img": "Frendship7.jpg",
+        "description": "This is the WEIRD product",
+        "price": 150,
+        "category":"spaceships"
+      },
+      {
+        "id": "pS2",
+        "name": "Moon lander 1",
+        "img": "MoonLander.jpg",
+        "description": "This is the WEIRD product",
+        "price": 114.99,
+        "category":"spaceships"
+      },
+      {
+        "id": "pS3",
+        "name": "Green Carrier",
+        "img": "GreenCarrier.jpg",
+        "description": "This is the WEIRD product",
+        "price": 150,
+        "category":"spaceships"
+      },
+      {
+        "id": "pS4",
+        "name": "Power house",
+        "img": "PowerHouse.jpg",
+        "description": "This is the WEIRD product",
+        "price": 114.99,
+        "category":"spaceships"
+      },
+      {
+        "id": "pS5",
+        "name": "Red Rocket",
+        "img": "RedRocket.jpg",
+        "description": "This is the WEIRD product",
+        "price": 114.99,
+        "category":"spaceships"
+      },
+      {
+        "id": "pS6",
+        "name": "Sky Starter",
+        "img": "SkyStarter.jpg",
+        "description": "This is the WEIRD product",
+        "price": 114.99,
+        "category":"spaceships"
+      },
+      {
+        "id": "pS7",
+        "name": "Silver Bullet",
+        "img": "SilverBullet.jpg",
+        "description": "This is the WEIRD product",
+        "price": 114.99,
+        "category":"spaceships"
+      },
+      {
+        "id": "pS8",
+        "name": "Grey Cruser",
+        "img": "GreyCruser.jpg",
+        "description": "This is the WEIRD product",
+        "price": 114.99,
+        "category":"spaceships"
+      }
+    ]
+  }
