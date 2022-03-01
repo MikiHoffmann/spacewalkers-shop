@@ -9,9 +9,10 @@ export const StyledNavBar = styled.nav`
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  border-top: ${({theme}) => theme.colors.brdrBlk};
-  border-bottom: ${({theme}) => theme.colors.brdrBlk};
-  box-shadow: ${({theme}) => theme.colors.boxShdwAll};
+  border-top: ${({ theme }) => theme.colors.brdrBlk};
+  border-bottom: ${({ theme }) => theme.colors.brdrBlk};
+  box-shadow: ${({ theme }) => theme.colors.boxShdwAll};
+  z-index: 2000;
   a {
     position: relative;
     height: 70%;
@@ -34,6 +35,22 @@ export const StyledNavBar = styled.nav`
         font-size: 0.6em;
         font-weight: bold;
         color: red;
+      }
+    }
+  }
+  @media only screen and (orientation: landscape) {
+    top: 0;
+    right: 1em;
+    height: 100%;
+    width: 3em;
+    flex-direction: column;
+    justify-content: space-evenly;
+    a {
+      height: auto;
+      width: 70%;
+      img {
+        height: auto;
+        width: 100%;
       }
     }
   }

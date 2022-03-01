@@ -1,9 +1,13 @@
-const Footer = () => {
-    return (
-        <p>
-            footer
-        </p>
-    )
-}
+import { StyledArticle } from "../styledComponents/Article.styled";
 
-export default Footer
+const Footer = () => {
+  return (
+    <>
+      <StyledArticle>
+        <p>footer</p>
+      </StyledArticle>
+    </>
+  );
+};
+
+export default Footer;

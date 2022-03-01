@@ -10,30 +10,37 @@ import Header from "./components/mainComponents/Header";
 import NavBar from "./components/mainComponents/NavBar";
 import Footer from "./components/mainComponents/Footer";
 
+import SignInPage from "./pages/SignInPage";
 import HomePage from "./pages/HomePage";
 import ProductsPage from "./pages/ProductsPage";
+import DetailsPage from "./pages/DetailsPage";
 import CartPage from "./pages/CartPage";
+import RegisterForm from "./components/RegisterForm";
+import ResetForm from "./components/ResetForm";
 
 function App() {
   return (
     <>
-    <ThemeProvider theme={themeLight}>
-      <GlobalStyle/>
-      <Router>
-      <Header/>
-        <NavBar />
-        <StyledMain className="backgroundImg">
-        <ScrollToTop>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/products" element={<ProductsPage />} />
-            <Route path="/cart" element={<CartPage />} />
-          </Routes>
-          <Footer />
-        </ScrollToTop>
-        </StyledMain>
-        
-      </Router>
+      <ThemeProvider theme={themeLight}>
+        <GlobalStyle />
+        <Router>
+          <Header />
+          <NavBar />
+          <StyledMain className="backgroundImg">
+            <ScrollToTop>
+              <Routes>
+                <Route exact path="/" element={<SignInPage />} />
+                <Route path="/home" element={<HomePage />} />
+                <Route path="/products" element={<ProductsPage />} />
+                <Route path="/details/" element={<DetailsPage />} />
+                <Route path="/cart" element={<CartPage />} />
+                <Route path="/register" element={<RegisterForm/>} />
+                <Route path="/reset" element={<ResetForm/>}/>
+              </Routes>
+              <Footer />
+            </ScrollToTop>
+          </StyledMain>
+        </Router>
       </ThemeProvider>
     </>
   );

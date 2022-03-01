@@ -36,7 +36,7 @@ export const shopReducer = (state = initialState, action) => {
         ...state,
         cartItems: state.cartItems.map((cartItem) =>
           cartItem.id === action.payload.id
-            ? { ...cartItem, qty: cartItem.qty - action.payload.qty }
+            ? { ...cartItem, qty: cartItem.qty - 1 }
             : cartItem
         ),
       };
@@ -45,7 +45,7 @@ export const shopReducer = (state = initialState, action) => {
         ...state,
         cartItems: state.cartItems.map((cartItem) =>
           cartItem.id === action.payload.id
-            ? { ...cartItem, qty: cartItem.qty + action.payload.qty }
+            ? { ...cartItem, qty: cartItem.qty + 1 }
             : cartItem
         ),
       };
